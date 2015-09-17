@@ -6,6 +6,7 @@ Passo a passo para configurar a aplicação no servidor local
 
 3 - A configuração do banco de dados está padrão localhost '127.0.0.1' usuário root e senha em branco.
 Para configurar o canco em seu SGDB basta editar o arquivo agendamento\application\config\database.php e configurar as variáveis;
+
 $db['default']['hostname'] = 'localhost';
 
 $db['default']['username'] = 'root';
